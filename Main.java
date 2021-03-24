@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * A function that can check if a number is valid under specific rules
+ *
+ * @author Anmol
+ */
 class Main {
 
   public static Boolean checkCode(int number) {
@@ -51,6 +56,12 @@ class Main {
     // This will end the code and bring the final value to the code that called this function.
     return num;
   }
+
+  /**
+   * The method that is executed when you hit the run button.
+   * 
+   * @param args the command line arguments
+   */
   public static void main(String[] args) {
     // create a Scanner for user input
     Scanner input = new Scanner(System.in);
